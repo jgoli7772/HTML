@@ -1,0 +1,42 @@
+.heading{
+    margin-left: 100px;
+}
+.main-section {
+    width: 400px;
+    border: 3px solid black;
+}
+.zero-box {
+    font-size: 30px;
+    text-align: right;
+    padding: 20px ;
+    display: flex;
+    width:356px;
+    border-bottom: 3px solid black;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+.button {
+    height: 100px;
+    width: 24.5%;
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    cursor: pointer;
+}
+.double-button {
+    width: 49.7%;
+    font-size: 40px;
+    border: none;
+}
+.triple-button {
+    width: 74.8%;
+    font-size: 40px;
+    border: none;
+}  
+
+  
+ 
+  

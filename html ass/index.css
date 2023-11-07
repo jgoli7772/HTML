@@ -1,0 +1,86 @@
+html{
+    background: url(bg1.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+.name{
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+.Authorr{
+    text-align: end;
+    padding-right: 15px;
+}
+.about{
+    text-align: end;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+.image{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    margin: 0 auto;
+    border-spacing: 5px;
+}
+.image:hover{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    margin: 0 auto;
+    border-spacing: 5px;
+    transform: scale(2,2);
+}
+.top{
+    margin-top: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.top:hover{
+    margin-top: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    color: blue;
+    font-style: italic;
+}
+.boxx{
+    display:grid;
+    margin-top: 10px;
+    margin: 0 auto;
+    border: 3px solid black;
+    grid-template-areas: 
+       "one  two  three"
+       "four five .";
+    width:85%;
+    height: 85%;
+
+}
+.first-one{
+    grid-area: one;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.second-one{
+    grid-area: two;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.third-one{
+    grid-area: three;
+    border-bottom: 3px solid black;
+}
+.fourth-one{
+    grid-area: four;
+    border-right: 3px solid black;
+}
+.fifth-one{
+    grid-area: five;
+    border-right: 3px solid black;
+}

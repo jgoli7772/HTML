@@ -1,0 +1,146 @@
+.header{
+    font-size: 50px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin : 0 auto;
+    padding: 50px;
+}
+.title{
+    display : flex;
+    border: 3px solid black;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.title:hover{
+    display : flex;
+    border: 3px solid black;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    margin: 0 auto;
+   
+
+}
+.title-name{
+    padding: 35px;
+    align-items: centre;
+    color: palevioletred;
+}
+.title-name:hover{
+    padding: 35px;
+    align-items: centre;
+    color: blue;
+    text-decoration: underline;
+}
+.article{
+    display: grid;
+    border: 3px solid black;
+    border-top: none;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-areas: 
+            "first second third"
+            "fourth fifth fifth";
+    height : 90%;
+}
+.first-one{
+    grid-area: first;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;  
+}
+.second-one{
+    grid-area: second;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+.third-one{
+    grid-area: third;
+    border-bottom: 3px solid black;
+}
+.fourth-one{
+    grid-area: fourth;
+    border-right: 3px solid black;
+}
+.fifth-one{
+    grid-area: fifth;
+
+}
+.image{
+    display: grid;
+    width:50%;
+    padding: 3px;
+    margin:auto;
+    
+}
+.sub-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin : 0 auto;
+    padding: 20px;
+}
+.para{
+    width: 90%;
+    padding:10px;
+    margin : 0 auto;
+}
+
+@media screen and (max-width: 900px)  {
+    .title{
+        display : flex;
+       flex-direction: column;
+       border-bottom: none;    
+    }
+    .title:hover {
+        display : flex;
+       flex-direction: column;
+       border-bottom: none;    
+    }
+    .header{
+        color: red;
+    }
+    .body{
+        flex-wrap: wrap;
+    }
+    .article{
+        display: grid;
+        border: 3px solid black;
+        grid-template-areas: 
+                "first "
+                 "second "
+                 "third"
+                "fourth"
+                 "fifth";
+        height : 90%;
+    }
+    .first-one{
+
+        border-right: none;  
+    }
+    .second-one{
+
+        border-right: none;
+    }
+    .third-one{
+
+        border-right:none;
+    }
+    .fourth-one{
+
+        border-right:none;
+    }
+    .fifth-one{
+        border-top: 3px solid black;
+    }
+    
+}
+
+
+    
+
+

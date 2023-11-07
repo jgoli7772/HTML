@@ -1,0 +1,15 @@
+html{
+    background: url(bg2.jpg); 
+    background-size: cover;
+}
+.about-page{
+    display: grid;
+    margin-top: 10px;
+    margin-left: 10px;
+    width:40%;
+    padding: 15px;
+}
+.back-page{
+    text-align: end;
+    padding-right: 15px;
+}
